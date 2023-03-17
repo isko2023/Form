@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    
+  
+}
+
+body {
+    min-height: 100vh;
+    /* background-color: dodgerblue; */
+    background: -webkit-linear-gradient(to right, #155799, #159957); 
+    background: linear-gradient(to right, #155799, #159957); 
+}
+
+
+.hhh{
+    font-size: 25px;
+    margin-top: -1rem;
+    padding-bottom: 0.5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+section  { 
+    width: 100%;
+    max-width: 420px;
+    min-height: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem ;
+    background-color: rgba(0,0,0,0.4); 
+     backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 15px; 
+}
+
+.register__box{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+
+.lastItem{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+.lastItem a:hover {
+    border: solid 3px  #022e5a;
+    padding: 0.1rem;
+    transition: ease 0.5s;
+}
+
+.lastItem p {
+    font-size: 21px;
+}
+
+
+.login__input{
+    font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;
+  border-radius: 0.3rem;
+  border:  1px solid rgba(255, 255, 255, 0.25);
+  border-radius:  3px;
+  width: 8rem;
+  outline: none;
+}
+
+
+.a{
+    margin-top: 1rem;
+    
+}
+
+.a:hover {
+    border: solid 3px  #022e5a;
+    transition: ease 0.5s;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+    color:whitesmoke;
+}
+
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text" ],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;
+  border-radius: 0.3rem;
+  border:  1px solid rgba(255, 255, 255, 0.25);
+  border-radius:  3px;
+}
+
+
+.numbeInput{
+    padding: 0.27rem;
+    font-size: 18px;
+    border-radius:  3px;
+    font-family: 'Nunito', sans-serif ;
+    border:  1px solid rgba(255, 255, 255, 0.25);
+    outline: none;
+}
+
+input:focus {
+   border-radius: 1rem;
+   font-size: 20px;
+   outline: none;
+   transition: linear 0.2s ;
+   padding: 0.35rem;  
+   border: 3px solid #1E90FF;
+}
+
+
+
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.4rem;
+  color: #fff;
+  background: #1E90FF;
+  cursor: pointer;
+  border-radius: 5px ;
+  outline-style: none;
+  width:  8rem
+}
+
+
+button:hover{
+    background: #025db9;
+    transition: linear 0.7s ;
+    color: #ffffff;
+    width: 17rem;
+
+}
+
+
+.instructions {
+    font-size: 0.55rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.20rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
